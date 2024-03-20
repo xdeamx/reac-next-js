@@ -1,1 +1,6 @@
 xdeamx
+
+- ways to fix: proxy
+ 1 - Inside the front project call a internal endpoint, that endpoint call the external endpoint (this happened in the server side for that reason it dont get CORS error)
+
+ 2 - install CORS package https://www.npmjs.com/package/cors in the backend project (API) to enable others servers to get information
